@@ -1,0 +1,728 @@
+{
+  "root": "/Users/jeetesh.shah/Desktop/Claude/assets",
+  "count": 100,
+  "items": [
+    {
+      "name": "Game XP   Rentz Munhoz",
+      "slug": "Game XP - Rentz Munhoz",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/Game XP - Rentz Munhoz.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "northgard",
+      "slug": "northgard",
+      "hero": "/Users/jeetesh.shah/Desktop/Claude/assets/hero/northgard-thumbnail--background-1920x1080.jpeg",
+      "hero_dimensions": "1920x1080"
+    },
+    {
+      "name": "observer: system redux",
+      "slug": "observer_-system-redux",
+      "hero": "/Users/jeetesh.shah/Desktop/Claude/assets/hero/observer_-system-redux-thumbnail--background-1920x1080.jpeg",
+      "hero_dimensions": "1920x1080"
+    },
+    {
+      "name": "rise of the tomb raider",
+      "slug": "rise-of-the-tomb-raider",
+      "hero": "/Users/jeetesh.shah/Desktop/Claude/assets/hero/rise-of-the-tomb-raider-thumbnail--background-1920x1080.jpeg",
+      "hero_dimensions": "1920x1080"
+    },
+    {
+      "name": "shadow of the tomb raider",
+      "slug": "shadow-of-the-tomb-raider",
+      "hero": "/Users/jeetesh.shah/Desktop/Claude/assets/hero/shadow-of-the-tomb-raider-thumbnail--background-1920x1080.jpeg",
+      "hero_dimensions": "1920x1080"
+    },
+    {
+      "name": "song of the prairie",
+      "slug": "song-of-the-prairie",
+      "hero": "/Users/jeetesh.shah/Desktop/Claude/assets/hero/song-of-the-prairie-thumbnail--background-1920x1080.jpeg",
+      "hero_dimensions": "1920x1080"
+    },
+    {
+      "name": "through the woods",
+      "slug": "through-the-woods",
+      "hero": "/Users/jeetesh.shah/Desktop/Claude/assets/hero/through-the-woods-thumbnail--background-1920x1080.jpeg",
+      "hero_dimensions": "1920x1080"
+    },
+    {
+      "name": "time loader",
+      "slug": "time-loader",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/time-loader-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080",
+      "hero": "/Users/jeetesh.shah/Desktop/Claude/assets/hero/time-loader-thumbnail--screenshot-1920x1080.jpeg",
+      "hero_dimensions": "1920x1080"
+    },
+    {
+      "name": "timelie",
+      "slug": "timelie",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/timelie-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "tiny echo",
+      "slug": "tiny-echo",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/tiny-echo-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "tiny gladiators",
+      "slug": "tiny-gladiators",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/tiny-gladiators-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "tiny troopers joint ops xl",
+      "slug": "tiny-troopers-joint-ops-xl",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/tiny-troopers-joint-ops-xl-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "to the stars",
+      "slug": "to-the-stars",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/to-the-stars-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "toki",
+      "slug": "toki",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/toki-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "tomb raider",
+      "slug": "tomb-raider",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/tomb-raider-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/tomb-raider-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "tools up!",
+      "slug": "tools-up!",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/tools-up!-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/tools-up!-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "totally spies!   cyber mission",
+      "slug": "totally-spies!---cyber-mission",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/totally-spies!---cyber-mission-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/totally-spies!---cyber-mission-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "tour de france 2020",
+      "slug": "tour-de-france-2020",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/tour-de-france-2020-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "tower craft",
+      "slug": "tower-craft",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/tower-craft-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "townscaper",
+      "slug": "townscaper",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/townscaper-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "toy box party time",
+      "slug": "toy-box-party-time",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/toy-box-party-time-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "train sim world\u00ae 2",
+      "slug": "train-sim-world\u00ae-2",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/train-sim-world\u00ae-2-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/train-sim-world\u00ae-2-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "train sim world\u00ae 3",
+      "slug": "train-sim-world\u00ae-3",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/train-sim-world\u00ae-3-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/train-sim-world\u00ae-3-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "troublemaker",
+      "slug": "troublemaker",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/troublemaker-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "truck driver",
+      "slug": "truck-driver",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/truck-driver-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/truck-driver-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "true fear: forsaken souls part 1",
+      "slug": "true-fear_-forsaken-souls-part-1",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/true-fear_-forsaken-souls-part-1-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/true-fear_-forsaken-souls-part-1-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "true fear: forsaken souls part 2",
+      "slug": "true-fear_-forsaken-souls-part-2",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/true-fear_-forsaken-souls-part-2-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/true-fear_-forsaken-souls-part-2-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "truxton",
+      "slug": "truxton",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/truxton-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/truxton-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "turnip boy commits tax evasion",
+      "slug": "turnip-boy-commits-tax-evasion",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/turnip-boy-commits-tax-evasion-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/turnip-boy-commits-tax-evasion-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "twin cobra",
+      "slug": "twin-cobra",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/twin-cobra-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/twin-cobra-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "two strikes",
+      "slug": "two-strikes",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/two-strikes-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "ufo robot grendizer \u2013 the feast of the wolves",
+      "slug": "ufo-robot-grendizer-\u2013-the-feast-of-the-wolves",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/ufo-robot-grendizer-\u2013-the-feast-of-the-wolves-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/ufo-robot-grendizer-\u2013-the-feast-of-the-wolves-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "unbroken soul",
+      "slug": "unbroken-soul",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/unbroken-soul-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "undead horde",
+      "slug": "undead-horde",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/undead-horde-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/undead-horde-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "under the waves",
+      "slug": "under-the-waves",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/under-the-waves-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "undercover cops",
+      "slug": "undercover-cops",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/undercover-cops-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "unknown fate",
+      "slug": "unknown-fate",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/unknown-fate-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "unlock the king",
+      "slug": "unlock-the-king",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/unlock-the-king-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "unpetrified: echoes of nature",
+      "slug": "unpetrified_-echoes-of-nature",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/unpetrified_-echoes-of-nature-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/unpetrified_-echoes-of-nature-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "until then",
+      "slug": "until-then",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/until-then-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "urban trial freestyle",
+      "slug": "urban-trial-freestyle",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/urban-trial-freestyle-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/urban-trial-freestyle-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "urban trial playground",
+      "slug": "urban-trial-playground",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/urban-trial-playground-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/urban-trial-playground-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "urban trial tricky deluxe edition\u2122",
+      "slug": "urban-trial-tricky-deluxe-edition\u2122",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/urban-trial-tricky-deluxe-edition\u2122-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/urban-trial-tricky-deluxe-edition\u2122-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "utopia 9   a volatile vacation",
+      "slug": "utopia-9---a-volatile-vacation",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/utopia-9---a-volatile-vacation-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/utopia-9---a-volatile-vacation-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "uurnog uurnlimited",
+      "slug": "uurnog-uurnlimited",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/uurnog-uurnlimited-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/uurnog-uurnlimited-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "v rally 4",
+      "slug": "v-rally-4",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/v-rally-4-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/v-rally-4-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "valhalla hills",
+      "slug": "valhalla-hills",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/valhalla-hills-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "valthirian arc: hero school story 2",
+      "slug": "valthirian-arc_-hero-school-story-2",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/valthirian-arc_-hero-school-story-2-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "vampires: bloodlord rising",
+      "slug": "vampires_-bloodlord-rising",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/vampires_-bloodlord-rising-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/vampires_-bloodlord-rising-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "vandals",
+      "slug": "vandals",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/vandals-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/vandals-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "varion",
+      "slug": "varion",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/varion-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "vectronom",
+      "slug": "vectronom",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/vectronom-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/vectronom-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "velocity noodle",
+      "slug": "velocity-noodle",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/velocity-noodle-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "vengeance of mr  peppermint",
+      "slug": "vengeance-of-mr--peppermint",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/vengeance-of-mr--peppermint-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "vertical kingdom",
+      "slug": "vertical-kingdom",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/vertical-kingdom-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/vertical-kingdom-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "victor vran overkill edition",
+      "slug": "victor-vran-overkill-edition",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/victor-vran-overkill-edition-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/victor-vran-overkill-edition-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "vigilante",
+      "slug": "vigilante",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/vigilante-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/vigilante-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "viking's tavern",
+      "slug": "viking's-tavern",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/viking's-tavern-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "viking brothers 5",
+      "slug": "viking-brothers-5",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/viking-brothers-5-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "vikings   wolves of midgard",
+      "slug": "vikings---wolves-of-midgard",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/vikings---wolves-of-midgard-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "viscerafest",
+      "slug": "viscerafest",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/viscerafest-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/viscerafest-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "vlad circus: descend into madness",
+      "slug": "vlad-circus_-descend-into-madness",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/vlad-circus_-descend-into-madness-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/vlad-circus_-descend-into-madness-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "voidsayer",
+      "slug": "voidsayer",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/voidsayer-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "voltaire: the vegan vampire",
+      "slug": "voltaire_-the-vegan-vampire",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/voltaire_-the-vegan-vampire-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/voltaire_-the-vegan-vampire-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "voodolls",
+      "slug": "voodolls",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/voodolls-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "wall world",
+      "slug": "wall-world",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/wall-world-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "wall world 2",
+      "slug": "wall-world-2",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/wall-world-2-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/wall-world-2-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "war thunder",
+      "slug": "war-thunder",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/war-thunder-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "warhammer: chaosbane",
+      "slug": "warhammer_-chaosbane",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/warhammer_-chaosbane-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "warshmallows",
+      "slug": "warshmallows",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/warshmallows-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "watch dogs",
+      "slug": "watch-dogs",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/watch-dogs-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "we are football 2024",
+      "slug": "we-are-football-2024",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/we-are-football-2024-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/we-are-football-2024-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "we are screwed!",
+      "slug": "we-are-screwed!",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/we-are-screwed!-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "west of dead",
+      "slug": "west-of-dead",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/west-of-dead-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "whacking hell!",
+      "slug": "whacking-hell!",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/whacking-hell!-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "what lies in the multiverse",
+      "slug": "what-lies-in-the-multiverse",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/what-lies-in-the-multiverse-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "whipseey and the lost atlas",
+      "slug": "whipseey-and-the-lost-atlas",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/whipseey-and-the-lost-atlas-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "whispers of a machine",
+      "slug": "whispers-of-a-machine",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/whispers-of-a-machine-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "who pressed mute on uncle marcus:",
+      "slug": "who-pressed-mute-on-uncle-marcus_",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/who-pressed-mute-on-uncle-marcus_-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/who-pressed-mute-on-uncle-marcus_-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "who wants to be a millionaire:",
+      "slug": "who-wants-to-be-a-millionaire_",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/who-wants-to-be-a-millionaire_-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "wild bastards",
+      "slug": "wild-bastards",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/wild-bastards-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "willy morgan and the curse of bone town",
+      "slug": "willy-morgan-and-the-curse-of-bone-town",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/willy-morgan-and-the-curse-of-bone-town-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "winter ember",
+      "slug": "winter-ember",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/winter-ember-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "wobbly life",
+      "slug": "wobbly-life",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/wobbly-life-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "wolfstride",
+      "slug": "wolfstride",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/wolfstride-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "wonder zoo   animal rescue!",
+      "slug": "wonder-zoo---animal-rescue!",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/wonder-zoo---animal-rescue!-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "worms w m d",
+      "slug": "worms-w-m-d",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/worms-w-m-d-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "wrc 7",
+      "slug": "wrc-7",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/wrc-7-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/wrc-7-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "wrc 8",
+      "slug": "wrc-8",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/wrc-8-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "wrc 9",
+      "slug": "wrc-9",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/wrc-9-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "wuppo: definitive edition",
+      "slug": "wuppo_-definitive-edition",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/wuppo_-definitive-edition-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "wytchwood",
+      "slug": "wytchwood",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/wytchwood-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "xenoraid: the first space war",
+      "slug": "xenoraid_-the-first-space-war",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/xenoraid_-the-first-space-war-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "xiii",
+      "slug": "xiii",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/xiii-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "yesterday origins",
+      "slug": "yesterday-origins",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/yesterday-origins-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "yestermorrow",
+      "slug": "yestermorrow",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/yestermorrow-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080"
+    },
+    {
+      "name": "yoku's island express",
+      "slug": "yoku's-island-express",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/yoku's-island-express-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "yooka laylee",
+      "slug": "yooka-laylee",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/yooka-laylee-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/yooka-laylee-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "yooka laylee and the impossible lair",
+      "slug": "yooka-laylee-and-the-impossible-lair",
+      "horizontal": "/Users/jeetesh.shah/Desktop/Claude/assets/horizontal/yooka-laylee-and-the-impossible-lair-thumbnail--gamehero-1920x1080.jpeg",
+      "horizontal_dimensions": "1920x1080",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/yooka-laylee-and-the-impossible-lair-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    },
+    {
+      "name": "zombie night terror",
+      "slug": "zombie-night-terror",
+      "vertical": "/Users/jeetesh.shah/Desktop/Claude/assets/vertical/zombie-night-terror-thumbnail--cover-720x1080.jpeg",
+      "vertical_dimensions": "720x1080"
+    }
+  ],
+  "fonts": [
+    {
+      "file": "JioType-Black.ttf",
+      "family": "JioType",
+      "weight": "Black",
+      "path": "/Users/jeetesh.shah/Desktop/Claude/assets/font/JioType-Black.ttf"
+    },
+    {
+      "file": "JioType-Bold.ttf",
+      "family": "JioType",
+      "weight": "Bold",
+      "path": "/Users/jeetesh.shah/Desktop/Claude/assets/font/JioType-Bold.ttf"
+    },
+    {
+      "file": "JioType-Light.ttf",
+      "family": "JioType",
+      "weight": "Light",
+      "path": "/Users/jeetesh.shah/Desktop/Claude/assets/font/JioType-Light.ttf"
+    },
+    {
+      "file": "JioType-LightItalic.ttf",
+      "family": "JioType",
+      "weight": "LightItalic",
+      "path": "/Users/jeetesh.shah/Desktop/Claude/assets/font/JioType-LightItalic.ttf"
+    },
+    {
+      "file": "JioType-Medium.ttf",
+      "family": "JioType",
+      "weight": "Medium",
+      "path": "/Users/jeetesh.shah/Desktop/Claude/assets/font/JioType-Medium.ttf"
+    },
+    {
+      "file": "JioType-MediumItalic.ttf",
+      "family": "JioType",
+      "weight": "MediumItalic",
+      "path": "/Users/jeetesh.shah/Desktop/Claude/assets/font/JioType-MediumItalic.ttf"
+    }
+  ],
+  "logos": [
+    {
+      "file": "JioGames_ServiceLogo_Horizontal_Black.svg",
+      "name": "JioGames_ServiceLogo_Horizontal_Black",
+      "path": "/Users/jeetesh.shah/Desktop/Claude/assets/logos/JioGames_ServiceLogo_Horizontal_Black.svg"
+    },
+    {
+      "file": "JioGames_ServiceLogo_Horizontal_White.svg",
+      "name": "JioGames_ServiceLogo_Horizontal_White",
+      "path": "/Users/jeetesh.shah/Desktop/Claude/assets/logos/JioGames_ServiceLogo_Horizontal_White.svg"
+    }
+  ]
+}
