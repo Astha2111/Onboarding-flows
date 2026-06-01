@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JioGames Onboarding Explorer</title>
+  <style>
+    @font-face {
+      font-family: 'JioType';
+      src: url('/Users/astha.a/Documents/Claude/Assets/font/JioType-Black.ttf') format('truetype');
+      font-weight: 900;
+    }
+    @font-face {
+      font-family: 'JioType';
+      src: url('/Users/astha.a/Documents/Claude/Assets/font/JioType-Bold.ttf') format('truetype');
+      font-weight: 700;
+    }
+    @font-face {
+      font-family: 'JioType';
+      src: url('/Users/astha.a/Documents/Claude/Assets/font/JioType-Medium.ttf') format('truetype');
+      font-weight: 500;
+    }
+    @font-face {
+      font-family: 'JioType';
+      src: url('/Users/astha.a/Documents/Claude/Assets/font/JioType-Light.ttf') format('truetype');
+      font-weight: 300;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:           #06080F;
+      --panel-bg:     #090c14;
+      --card-hover:   rgba(255,255,255,0.04);
+      --card-active:  rgba(0,168,89,0.10);
+      --jio:          #00A859;
+      --jio-dim:      rgba(0,168,89,0.20);
+      --text:         #F4F2EE;
+      --text-2:       #A8ADBA;
+      --text-3:       #4a5068;
+      --border:       rgba(255,255,255,0.07);
+      --font:         'JioType', system-ui, -apple-system, sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      -webkit-font-smoothing: antialiased;
+      overflow: hidden;
+    }
+
+    /* ─── Layout ──────────────────────────────────────────────── */
+    #app {
+      display: flex;
+      height: 100vh;
+    }
+
+    /* ─── Sidebar ─────────────────────────────────────────────── */
+    #sidebar {
+      width: 272px;
+      flex-shrink: 0;
+      background: var(--panel-bg);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* Header */
+    #sidebar-header {
+      padding: 28px 20px 18px;
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .sh-eyebrow {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--jio);
+      margin-bottom: 6px;
+    }
+    .sh-title {
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--text);
+      line-height: 1.2;
+    }
+    .sh-meta {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--text-3);
+      margin-top: 5px;
+    }
+
+    /* Scrollable list */
+    #sidebar-body {
+      flex: 1;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(255,255,255,0.08) transparent;
+      padding-bottom: 24px;
+    }
+    #sidebar-body::-webkit-scrollbar { width: 3px; }
+    #sidebar-body::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.09); border-radius: 2px; }
+
+    /* Section label */
+    .section-label {
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-3);
+      padding: 22px 20px 8px;
+    }
+
+    /* ── Version rows ── */
+    .version-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background 0.14s ease;
+      border-left: 2px solid transparent;
+    }
+    .version-card:hover { background: var(--card-hover); }
+    .version-card.active {
+      background: var(--card-active);
+      border-left-color: var(--jio);
+    }
+
+    .version-badge {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text-2);
+      flex-shrink: 0;
+      letter-spacing: 0.02em;
+    }
+    .version-card.active .version-badge {
+      background: var(--jio-dim);
+      border-color: rgba(0,168,89,0.30);
+      color: var(--jio);
+    }
+
+    .version-info { flex: 1; min-width: 0; }
+    .version-name {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .latest-pill {
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: var(--jio-dim);
+      color: var(--jio);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .version-desc {
+      font-size: 11px;
+      font-weight: 400;
+      color: var(--text-2);
+      margin-top: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Divider */
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 12px 0;
+    }
+
+    /* ── Preset rows ── */
+    .preset-card {
+      padding: 10px 20px 10px 22px;
+      cursor: pointer;
+      transition: background 0.14s ease;
+      border-left: 2px solid transparent;
+    }
+    .preset-card:hover { background: var(--card-hover); }
+    .preset-card.active {
+      background: var(--card-active);
+      border-left-color: var(--jio);
+    }
+
+    .preset-screen {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-3);
+      margin-bottom: 3px;
+    }
+    .preset-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.3;
+    }
+    .preset-sub {
+      font-size: 11px;
+      font-weight: 400;
+      color: var(--text-2);
+      margin-top: 2px;
+    }
+
+    /* Disabled group */
+    .presets-group.disabled {
+      opacity: 0.3;
+      pointer-events: none;
+    }
+
+    /* ─── Main preview ─────────────────────────────────────────── */
+    #main {
+      flex: 1;
+      display: flex;
+      align-items: stretch;
+      justify-content: stretch;
+      background: var(--bg);
+      position: relative;
+      overflow: hidden;
+    }
+
+    #preview-frame {
+      width: 100%;
+      height: 100%;
+      border: none;
+      background: var(--bg);
+    }
+
+    /* Version label floating top-right */
+    #version-tag {
+      position: absolute;
+      top: 20px;
+      right: 24px;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text-3);
+      letter-spacing: 0.06em;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+<div id="app">
+
+  <!-- ══════════════════════════════════════════════════════════
+       SIDEBAR
+  ═══════════════════════════════════════════════════════════ -->
+  <div id="sidebar">
+
+    <div id="sidebar-header">
+      <div class="sh-eyebrow">JioGames · Pre-login</div>
+      <div class="sh-title">Onboarding<br>Explorer</div>
+      <div class="sh-meta">Splash · Promo · Login · Genre · Device</div>
+    </div>
+
+    <div id="sidebar-body">
+
+      <!-- Options -->
+      <div class="section-label">Options</div>
+
+      <div class="version-card" id="ver-v2" onclick="loadVersion('v2')">
+        <div class="version-badge">01</div>
+        <div class="version-info">
+          <div class="version-name">Option 1</div>
+          <div class="version-desc">2×2 grid · Gradient header</div>
+        </div>
+      </div>
+
+      <div class="version-card active" id="ver-v3" onclick="loadVersion('v3')">
+        <div class="version-badge">02</div>
+        <div class="version-info">
+          <div class="version-name">Option 2</div>
+          <div class="version-desc">Full-width rows · Scroll covers</div>
+        </div>
+      </div>
+
+      <div class="version-card" id="ver-v3b" onclick="loadVersion('v3b')">
+        <div class="version-badge">03</div>
+        <div class="version-info">
+          <div class="version-name">Option 3</div>
+          <div class="version-desc">Based on Option 2 · jiogames-selectgenreV0</div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Screen Presets — work with all options -->
+      <div class="section-label">Screen Presets</div>
+
+      <div class="presets-group" id="presetsGroup">
+
+        <!-- Pre-login -->
+        <div class="preset-card" id="preset-splash" onclick="loadPreset('splash')">
+          <div class="preset-screen">Pre-login</div>
+          <div class="preset-name">Splash</div>
+          <div class="preset-sub">→ Logo screen</div>
+        </div>
+
+        <div class="preset-card" id="preset-promo" onclick="loadPreset('promo')">
+          <div class="preset-screen">Pre-login</div>
+          <div class="preset-name">Promo</div>
+          <div class="preset-sub">→ Hero + game rails</div>
+        </div>
+
+        <div class="preset-card" id="preset-login" onclick="loadPreset('login')">
+          <div class="preset-screen">Pre-login</div>
+          <div class="preset-name">Login sheet</div>
+          <div class="preset-sub">→ Phone number input</div>
+        </div>
+
+        <div class="preset-card" id="preset-otp" onclick="loadPreset('otp')">
+          <div class="preset-screen">Pre-login</div>
+          <div class="preset-name">OTP</div>
+          <div class="preset-sub">→ 6-digit code entry</div>
+        </div>
+
+        <!-- Onboarding -->
+        <div class="preset-card active" id="preset-step1-empty" onclick="loadPreset('step1-empty')">
+          <div class="preset-screen">Screen 1 — Genre Picker</div>
+          <div class="preset-name">Empty state</div>
+          <div class="preset-sub">→ No genres selected</div>
+        </div>
+
+        <div class="preset-card" id="preset-step1-1sel" onclick="loadPreset('step1-1sel')">
+          <div class="preset-screen">Screen 1 — Genre Picker</div>
+          <div class="preset-name">1 genre selected</div>
+          <div class="preset-sub">→ Continue active</div>
+        </div>
+
+        <div class="preset-card" id="preset-step1-3sel" onclick="loadPreset('step1-3sel')">
+          <div class="preset-screen">Screen 1 — Genre Picker</div>
+          <div class="preset-name">3 genres selected</div>
+          <div class="preset-sub">→ Multiple selection</div>
+        </div>
+
+        <div class="preset-card" id="preset-step2-empty" onclick="loadPreset('step2-empty')">
+          <div class="preset-screen">Screen 2 — Device Picker</div>
+          <div class="preset-name">Empty state</div>
+          <div class="preset-sub">→ No device selected</div>
+        </div>
+
+        <div class="preset-card" id="preset-step2-mobile" onclick="loadPreset('step2-mobile')">
+          <div class="preset-screen">Screen 2 — Device Picker</div>
+          <div class="preset-name">Mobile Pass selected</div>
+          <div class="preset-sub">→ Let's go! active</div>
+        </div>
+
+        <div class="preset-card" id="preset-step2-multiscreen" onclick="loadPreset('step2-multiscreen')">
+          <div class="preset-screen">Screen 2 — Device Picker</div>
+          <div class="preset-name">All Screen Pass selected</div>
+          <div class="preset-sub">→ Let's go! active</div>
+        </div>
+
+      </div><!-- /presetsGroup -->
+
+    </div><!-- /sidebar-body -->
+  </div><!-- /sidebar -->
+
+  <!-- ══════════════════════════════════════════════════════════
+       PREVIEW
+  ═══════════════════════════════════════════════════════════ -->
+  <div id="main">
+    <iframe id="preview-frame" src="jiogames-selectgenreV3.html"></iframe>
+    <div id="version-tag">Option 2</div>
+  </div>
+
+</div><!-- /app -->
+
+<script>
+  const VERSIONS = {
+    v2:  'jiogames-selectgenreV2.html',
+    v3:  'jiogames-selectgenreV3.html',
+    v3b: 'jiogames-selectgenreV0.html',
+  };
+
+  const VERSION_LABELS = {
+    v2: 'Option 1', v3: 'Option 2', v3b: 'Option 3',
+  };
+
+  let currentVersion = 'v3';
+  let currentPreset  = 'step1-empty';
+
+  const frame        = document.getElementById('preview-frame');
+  const presetsGroup = document.getElementById('presetsGroup');
+  const versionTag   = document.getElementById('version-tag');
+
+  /* ── Load a version ── */
+  function loadVersion(v) {
+    if (currentVersion === v) return;
+    if (!VERSIONS[v]) return;
+
+    currentVersion = v;
+
+    // Update sidebar highlights
+    document.querySelectorAll('.version-card').forEach(c => c.classList.remove('active'));
+    document.getElementById('ver-' + v).classList.add('active');
+
+    // All options now have both pre-login and onboarding presets
+    presetsGroup.classList.remove('disabled');
+
+    // Load iframe
+    frame.src = VERSIONS[v];
+    versionTag.textContent = VERSION_LABELS[v] || v.toUpperCase();
+  }
+
+  /* ── Navigate inside the iframe via its exported APIs ── */
+  const PRE_LOGIN_PRESETS = ['splash', 'promo', 'login', 'otp'];
+
+  function callInFrame(fn) {
+    const tryCall = () => {
+      try { fn(); } catch (e) { setTimeout(tryCall, 80); }
+    };
+    if (frame.contentDocument?.readyState === 'complete') {
+      tryCall();
+    } else {
+      frame.addEventListener('load', tryCall, { once: true });
+    }
+  }
+
+  /* ── Load a screen preset ── */
+  function loadPreset(preset) {
+    currentPreset = preset;
+
+    // Highlight preset card
+    document.querySelectorAll('.preset-card').forEach(c => c.classList.remove('active'));
+    const cardEl = document.getElementById('preset-' + preset);
+    if (cardEl) cardEl.classList.add('active');
+
+    if (PRE_LOGIN_PRESETS.includes(preset)) {
+      // Pre-login presets: reload the iframe fresh (shows splash), then navigate
+      if (preset === 'splash') {
+        // Just reload — splash is the initial state
+        frame.src = frame.src;  // force reload
+        // Set src to current version to reload
+        const v = currentVersion;
+        frame.src = VERSIONS[v] + '?t=' + Date.now();
+      } else if (preset === 'promo') {
+        frame.src = VERSIONS[currentVersion] + '?t=' + Date.now();
+        frame.addEventListener('load', () => {
+          callInFrame(() => frame.contentWindow.plNavigate('promo'));
+        }, { once: true });
+      } else if (preset === 'login') {
+        frame.src = VERSIONS[currentVersion] + '?t=' + Date.now();
+        frame.addEventListener('load', () => {
+          callInFrame(() => frame.contentWindow.plNavigate('login'));
+        }, { once: true });
+      } else if (preset === 'otp') {
+        frame.src = VERSIONS[currentVersion] + '?t=' + Date.now();
+        frame.addEventListener('load', () => {
+          callInFrame(() => {
+            frame.contentWindow.plNavigate('login');
+            // After login sheet opens, trigger Continue to go to OTP
+            setTimeout(() => {
+              const loginBtn = frame.contentDocument.getElementById('pl-login-btn');
+              if (loginBtn && !loginBtn.disabled) loginBtn.click();
+            }, 900);
+          });
+        }, { once: true });
+      }
+    } else {
+      // Onboarding presets: call applyPreset directly
+      callInFrame(() => frame.contentWindow.applyPreset(preset, false));
+    }
+  }
+</script>
+</body>
+</html>
